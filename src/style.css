@@ -1,0 +1,17 @@
+@import './base.css';
+@layer base {
+  :root {
+    --bg: #f2f5f1;
+    --surface: #fffefa;
+    --canvas: #edf2ec;
+    --ink: #263e36;
+    --muted: #788a80;
+    --accent: #146b60;
+    --on-accent: #fff;
+    --line: #dde5dc;
+    --input: #fff;
+    --hover: #e9f1e8;
+    --danger: #b53b47;
+  }
+  /* Keep neighboring panels still as questions and outcomes are selected. */
+}

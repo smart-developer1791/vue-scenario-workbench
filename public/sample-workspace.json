@@ -1,0 +1,77 @@
+{
+  "format": "SW/1",
+  "title": "Find your next good move",
+  "description": "A friendly starting point for your next creative project.",
+  "entry": "start",
+  "steps": [
+    {
+      "id": "start",
+      "kind": "question",
+      "title": "Where are you starting?",
+      "body": "Every good project begins with a little clarity. What does yours look like?",
+      "choices": [
+        {
+          "label": "A brand new idea",
+          "to": "new"
+        },
+        {
+          "label": "Something already exists",
+          "to": "existing"
+        }
+      ]
+    },
+    {
+      "id": "new",
+      "kind": "question",
+      "title": "What needs a little shape?",
+      "body": "Think about the first thing that will help your idea feel real.",
+      "choices": [
+        {
+          "label": "The look and the story",
+          "to": "identity"
+        },
+        {
+          "label": "The digital experience",
+          "to": "website"
+        }
+      ]
+    },
+    {
+      "id": "existing",
+      "kind": "question",
+      "title": "What would make it better?",
+      "body": "A small, thoughtful change can make a surprisingly big difference.",
+      "choices": [
+        {
+          "label": "A clearer visual direction",
+          "to": "identity"
+        },
+        {
+          "label": "A smoother experience",
+          "to": "review"
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "kind": "result",
+      "title": "Start with a little identity.",
+      "body": "Collect three references you love. Write down what your project should feel like. Then explore a small set of colors, words, and shapes.",
+      "choices": []
+    },
+    {
+      "id": "website",
+      "kind": "result",
+      "title": "Make one useful page.",
+      "body": "Choose one thing your visitor should be able to do. Sketch the shortest path to it, and turn that sketch into a small working prototype.",
+      "choices": []
+    },
+    {
+      "id": "review",
+      "kind": "result",
+      "title": "Listen, then simplify.",
+      "body": "Watch someone use the current experience. Find one point of friction. Improve it, try again, and keep what makes the journey clearer.",
+      "choices": []
+    }
+  ]
+}
